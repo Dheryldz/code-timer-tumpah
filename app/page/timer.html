@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timer</title>
+</head>
+<body>
+  <div id="timer-root"></div>
+  <div id="comment-root"></div>
+</body>
+<script>
+  const scripts = [];
+
+  if (process.env.NODE_ENV === 'development') {
+    scripts.push('<script defer src=\"http://localhost:3001/build/timer.js"><\/script>');
+  }
+
+  document.write(scripts.map(script => script));
+</script>
+</html>

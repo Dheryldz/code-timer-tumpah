@@ -1,0 +1,27 @@
+{
+  "name": "code-timer-tumpah",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "dheryldz",
+    "demo",
+    "project"
+  ],
+  "author": "Dheryldz",
+  "homepage": "https://github.com/Dheryldz/code-timer-tumpah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dheryldz/code-timer-tumpah",
+    "license": "ISC"
+  },
+  "dependencies": {
+    "code-ridwan-pomodoro": "^1.0.0",
+    "code-sbransyori-flappy-bird": "^1.0.0",
+    "emoji-npm": "^1.0.2"
+  }
+}

@@ -1,0 +1,7 @@
+.idea
+/node_modules
+*.log
+/build
+/dist
+release.sh
+keyChain
